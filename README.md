@@ -36,7 +36,7 @@ cp .env.example .env
 编辑 `.env`：
 
 ```
-MTEAM_API_KEY=d5a0734d-872c-468a-b754-60232ed9039b
+MTEAM_API_KEY=你的API-Key
 ```
 
 ### 3. 安装
