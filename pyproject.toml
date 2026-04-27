@@ -1,0 +1,16 @@
+[project]
+name = "mteam-search"
+version = "0.1.0"
+description = "M-Team 影视资源搜索与下载 CLI 工具"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.25",
+    "python-dotenv>=0.19",
+]
+
+[project.scripts]
+mteam-search = "mteam_search.cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
